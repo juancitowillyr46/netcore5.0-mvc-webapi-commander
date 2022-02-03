@@ -32,7 +32,11 @@ namespace Commander
                 (Configuration.GetConnectionString("CommanderConnection")));
 
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             //services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
             
             services.AddSwaggerGen(c =>
