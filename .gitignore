@@ -282,3 +282,11 @@ obj/
 /wwwroot/node_modules
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
