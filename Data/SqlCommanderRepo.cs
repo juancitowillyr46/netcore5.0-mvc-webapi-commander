@@ -38,6 +38,16 @@ namespace Commander.Data
         {
             return (_context.SaveChanges() > 0);
         }
+
+        public void UpdateCommand(Command cmd)
+        {
+            // if(cmd == null)
+            // {
+            //     throw new ArgumentNullException(nameof(cmd));
+            // }
+
+            // _context.Commands.Add(cmd);
+        }
     }
 
 }
