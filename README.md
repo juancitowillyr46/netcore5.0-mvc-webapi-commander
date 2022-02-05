@@ -26,3 +26,5 @@ PATCH - https://localhost:5001/api/commands/{id}
         "value": "Hello patch"
     }
 ]
+
+DELETE - https://localhost:5001/api/commands/{id}
